@@ -7,7 +7,7 @@ public class Cliente extends Thread{
     private Random random = new Random();
     private static final int MAX_OP_CLIENTE = 5;
     private static final int MAX_CANT_DEPOSITAR = 5000;
-    private static final int MAX_CANT_RETIRAR = 1000;
+    private static final int MAX_CANT_RETIRAR = 4000;
     private static final int MAX_TIEMPO_PAUSA = 5000;
 
     private int totalDepositado = 0;
